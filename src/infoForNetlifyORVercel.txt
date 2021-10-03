@@ -1,0 +1,24 @@
+* to deploy app go to "Netlify" or "Vercel", both are indentical so can use which you want
+* then clicking on "sign up" or "login" , new window opens where we have to choose from which Git flatform
+  we have to singup/sign
+* NOTE: in netlify you asked for some info, you can skip this
+* choose "GitHub" and after new page opens(profile page), find "New Site.." or "Deploy" according to that website
+
+* then import our created repository from "GitHub"(you can select how many repository you want to share with 
+  netlify/vercel)
+
+* then select(again) which repository you want to share to deploy website
+
+* then some info show on your screen about your project and commands to run that project and generated link for website
+
+** BUT YOU HAVE TO CHANGE COMMAND "npm run build" YOU CAN SEE THIS IN "BUILDING" SECTION OR
+   YOU CAN SCROLL DOWN TO SEE PROPERTIES OF YOUR PROJECT AND COMMAND WHICH RUNS
+   AFTER YOU FIND THAT "npm run build" COMMAND CHANGE IT TO 
+   "CI=false npm run build"
+
+   THEN YOU CAN DEPLOY YOUR APP WHICH TAKES 30 - 45 SECONDS
+   AND APP LINK IS PROVIDED TO YOU WHICH YOU CAN SHARE WITH ANYONE TO SEE YOUR WEBSITE 
+
+* NETLIFY LINK: yuvraj-youtube-api.netlify.app
+
+* VERCEL LINK: you-tube-app-c7u9b9u10-yuvrajsavardekar.vercel.app

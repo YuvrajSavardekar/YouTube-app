@@ -1,0 +1,26 @@
+* first you need to create a "GitHub" account(if you don't have)
+* then create repository(you find that option somewhere on your profile)
+* give that repository name you want and choose this repository should be "public" or "private",
+* default "public", so no need to change anything
+* then most important, he link is generated for repository copy that and paste somewhere
+* our app link "https://github.com/YuvrajSavardekar/YouTube-app.git"
+
+* then download and install "Git" and run following commands to link "Git" to your local computer
+
+*. for linking your PC to Git use following commands
+ > git config --global user.email "you@example.com"    // put your GitHub email
+ > git config --global user.name "Your Name"           // put your GitHub userName
+
+* then go to your project directory(YouTube_UsingHooks_07) and run following commands
+C:\User...ooks_07> git add .                       
+C:\User...ooks_07> git commit -m "ready for deploy"     // saying we want to deploy
+
+* then paste GitHub repository "url" to link
+C:\User...ooks_07> git remote add origin https://github.com/YuvrajSavardekar/YouTube-app.git
+
+* then push our project to repository(main files which handles everything, not 200 - 250 MB(size of our project))
+C:\User...ooks_07>git push origin master
+
+* then we successfully added our files to GitHub repository
+
+* to further steps look for next .txt file
